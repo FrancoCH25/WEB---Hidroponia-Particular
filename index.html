@@ -332,7 +332,7 @@
                                 <i class="fas fa-phone-alt mt-1 mr-3"></i>
                                 <div>
                                     <h4 class="font-bold">Teléfono</h4>
-                                    <p>+52 55 1234 5678</p>
+                                    <p>+51 956 325 725</p>
                                 </div>
                             </div>
                             
@@ -340,7 +340,7 @@
                                 <i class="fas fa-envelope mt-1 mr-3"></i>
                                 <div>
                                     <h4 class="font-bold">Email</h4>
-                                    <p>info@hydroforraje.com</p>
+                                    <p>franco.choque@ucsp.edu.pe</p>
                                 </div>
                             </div>
                             
@@ -348,32 +348,32 @@
                                 <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
                                 <div>
                                     <h4 class="font-bold">Oficinas</h4>
-                                    <p>Av. Agricultura 123, CDMX, México</p>
+                                    <p>Urb. Campiña Paisajista, s/n, Quinta Vivanco, Arequipa 04001</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     
                     <div class="md:w-1/2 p-8">
-                        <form id="contactForm" class="space-y-4">
+                        <form action="https://formspree.io/f/xeolzbko" method="POST" class="space-y-4">
                             <div>
                                 <label for="name" class="block text-gray-700 font-medium mb-1">Nombre completo</label>
-                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+                                <input type="text" id="name" name="nombre" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
                             </div>
                             
                             <div>
                                 <label for="email" class="block text-gray-700 font-medium mb-1">Correo electrónico</label>
-                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
                             </div>
                             
                             <div>
                                 <label for="phone" class="block text-gray-700 font-medium mb-1">Teléfono</label>
-                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+                                <input type="tel" id="phone" name="telefono" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500" required>
                             </div>
                             
                             <div>
                                 <label for="interest" class="block text-gray-700 font-medium mb-1">¿Qué te interesa?</label>
-                                <select id="interest" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500">
+                                <select id="interest" name="interes" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500">
                                     <option value="sistema">Sistema completo</option>
                                     <option value="instalacion">Solo instalación</option>
                                     <option value="asesoria">Asesoría técnica</option>
@@ -383,10 +383,12 @@
                             
                             <div>
                                 <label for="message" class="block text-gray-700 font-medium mb-1">Mensaje</label>
-                                <textarea id="message" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></textarea>
+                                <textarea id="message" name="mensaje" rows="3" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"></textarea>
                             </div>
                             
-                            <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">Enviar Mensaje</button>
+                            <button type="submit" class="w-full bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">
+                                Enviar Mensaje
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -484,15 +486,15 @@
                     <ul class="space-y-2 text-teal-200">
                         <li class="flex items-start">
                             <i class="fas fa-map-marker-alt mt-1 mr-2"></i>
-                            <span>Av. Agricultura 123, CDMX, México</span>
+                            <span>Urb. Campiña Paisajista, s/n, Quinta Vivanco, Arequipa 04001</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-phone-alt mt-1 mr-2"></i>
-                            <span>+52 55 1234 5678</span>
+                            <span>+51 956 325 725</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-envelope mt-1 mr-2"></i>
-                            <span>info@hydroforraje.com</span>
+                            <span>franco.choque@ucsp.edu.pe</span>
                         </li>
                     </ul>
                 </div>
@@ -500,16 +502,16 @@
                 <div>
                     <h4 class="text-lg font-bold mb-4">Síguenos</h4>
                     <div class="flex space-x-4">
-                        <a href="#" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
+                        <a href="https://www.facebook.com/francosebastian.choqueandia" target="_blank" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
+                        <a href="#" target="_blank" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
+                        <a href="https://www.instagram.com/choque.andia_16/" target="_blank" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a href="#" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
+                        <a href="https://www.linkedin.com/in/franco-choque-7aa105313/" target="_blank" class="w-10 h-10 rounded-full bg-teal-800 hover:bg-teal-700 flex items-center justify-center transition">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
@@ -564,5 +566,5 @@
             });
         });
     </script>
-</body>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=FrancoCH25/forraje-vacuno" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
 </html>
